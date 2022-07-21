@@ -12,6 +12,7 @@
             background: darkslateblue;
             position: relative;
             top 20px;
+            z-index: 5;
         }
         .item {
             width: 20px;
@@ -26,19 +27,27 @@
             background: cyan;
             position: fixed;
             top: 0;
+            z-index: 3;
         }
         ul p {
-            position: sticky;
+            /* position: sticky; */
             top: 0;
+        }
+        .texto {
+            z-index: 4;
+            position: absolute;
         }
     </style>
 </head>
 <body>
+
     <nav></nav>
+
     <div class="container">
         <div class="item"></div>
     </div>
-    <p>What is Lorem Ipsum?
+    <div class="texto">
+        <p>What is Lorem Ipsum?
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
         
         <p> Why do we use it?
@@ -157,5 +166,6 @@
             <li>Tomate</li>
             <li>Cebolla</li>
         </ul>
+    </div>
 </body>
 </html>
