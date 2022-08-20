@@ -3,32 +3,32 @@ function papel_tijera_piedra(pl) {
   var player = pl;
   var npc = func_npc(array_npc);
 
-  switch (player + "-" + npc) {
-    case "papel-papel":
+  switch (player + npc) {
+    case "papel" + "papel":
       console.log("player: " + player, " npc: " + npc, " empate!");
       break;
-    case "papel-tijera":
+    case "papel" + "tijera":
       console.log("player: " + player, " npc: " + npc, " npc gana!");
       break;
-    case "papel-piedra":
+    case "papel" + "piedra":
       console.log("player: " + player, " npc: " + npc, " player gana!");
       break;
-    case "tijera-papel":
+    case "tijera" + "papel":
       console.log("player: " + player, " npc: " + npc, " player gana!");
       break;
-    case "tijera-tijera":
+    case "tijera" + "tijera":
       console.log("player: " + player, " npc: " + npc, " empate!");
       break;
-    case "tijera-piedra":
+    case "tijera" + "piedra":
       console.log("player: " + player, " npc: " + npc, " npc gana!");
       break;
-    case "piedra-papel":
+    case "piedra" + "papel":
       console.log("player: " + player, " npc: " + npc, " npc gana!");
       break;
-    case "piedra-tijera":
+    case "piedra" + "tijera":
       console.log("player: " + player, " npc: " + npc, " player gana!");
       break;
-    case "piedra-piedra":
+    case "piedra" + "piedra":
       console.log("player: " + player, " npc: " + npc, " empate!");
       break;
     default:
