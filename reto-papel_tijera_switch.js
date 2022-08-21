@@ -61,4 +61,4 @@ function func_npc(arr) {
   return juego;
 }
 
-papel_tijera_piedra("papel");
+papel_tijera_piedra("piedra");
