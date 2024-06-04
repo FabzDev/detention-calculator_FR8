@@ -2,7 +2,7 @@
 
 ![Detention calculator working](./App%20Working%20Screenshot.png)
 
-##English
+## English
 
 ## Description
 
