@@ -14,8 +14,6 @@
 2. Follow the instructions displayed in the console to input the entry time, exit time, carrier's freetime, and the detention percentage corresponding to your shipment.
 3. The application will automatically calculate the detention fee and display it in the console.
 
-## Example
-
 
 ## Español
 
@@ -28,7 +26,4 @@
 1. Ejecuta la aplicación en tu entorno de desarrollo de Python.
 2. Sigue las instrucciones que aparecen en la consola para ingresar la hora de entrada, la hora de salida, el freetime ofrecido por el transportista y el porcentaje de detención correspondiente a tu envío.
 3. La aplicación calculará automáticamente la tarifa de detención y la mostrará en la consola.
-
-## Ejemplo
-
 
