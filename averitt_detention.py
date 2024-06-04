@@ -3,9 +3,9 @@ import math
 
 
 in_time_str = input('\nPlease enter the time in (HH:MM): ')
-out_time_str = input('Please enter the time out (HH:MM): ')
-free_time_str = input('Please enter the free time (in minutes): ')
-detention_percentage = input('Please enter the detention percentage: ')
+out_time_str = input('\nPlease enter the time out (HH:MM): ')
+free_time_str = input('\nPlease enter the free time (in minutes): ')
+detention_percentage = input('\nPlease enter the detention percentage: ')
 
 TIME_RANGE = 15
 DETENTION_CHARGE = 45
@@ -24,6 +24,8 @@ def det_calculation():
     actual_detention = total_detention * float(detention_percentage) / 100
 
     input(f"\n\t💸 Detention amount: ${actual_detention}")
+
+    input("\nPress enter to quit...")
 
 
 
